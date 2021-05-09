@@ -1,4 +1,4 @@
-import { ascending, descending, enty } from "./helpers";
+import { ascending, descending, enty } from "./helpers.js";
 
 // interface User {
 //   id: string;
@@ -31,5 +31,4 @@ import { ascending, descending, enty } from "./helpers";
 // console.log(usersEnty.sortByElement(ascending("age")).elements);
 
 // console.log(usersEnty.add({ id: "user-4", age: 8 }).getById("user-4"))
-
 export default { enty, sorters: { ascending, descending } };
