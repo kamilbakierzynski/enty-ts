@@ -68,7 +68,7 @@ export class Enty<T, Key extends keyof T> {
     if (this.allIds.indexOf(element[this.keyField]) !== -1) return this;
     return this.addOrOverride(element);
   }
-  
+
   update(element: T): Enty<T, Key> {
     if (this.allIds.indexOf(element[this.keyField]) === -1) return this;
     return this.addOrOverride(element);
